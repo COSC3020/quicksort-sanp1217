@@ -14,3 +14,5 @@ recursive call considers.
 Analyse the time complexity of your implementation and give a $\Theta$ bound for
 its worst-case runtime. Add your answer, including your reasoning, to this
 markdown file.
+
+The $\Theta$ bound worst case for my implementation is $\Theta(n^2)$ This occurs when the pivot leads to unbalanced partitions. I choose the first element as the pivot so, for example, in an already sorted array, the partitioning and comparison will still occur for every element in the two while loops that move the elements to the left and right, resulting in $\Theta(n^2)$
